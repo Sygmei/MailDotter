@@ -1,0 +1,12 @@
+[package]
+name = "mail_dotter"
+version = "0.1.0"
+authors = ["Sygmei <3835355+Sygmei@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "3.1.6", features = ["derive"] }
+email-address-parser = "1.0.3"
+sha2 = "0.10.2"
